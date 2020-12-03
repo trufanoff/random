@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">About</string>
+
+    <string name="tvResult">"?"</string>
+    <string name="tvResult1"></string>
+    <string name="tvShake">or shake</string>
+    <string name="btnRandomize">Randomize</string>
+    <string name="minValue">1</string>
+    <string name="maxValue">10</string>
+
+    <string name="nav_number">Number</string>
+    <string name="nav_dice">Dice</string>
+    <string name="nav_yon">Yes or No</string>
+    <string name="nav_flipcoin">Flip a coin</string>
+    <string name="nav_rps">Rock Paper Scissors</string>
+    <string name="nav_ownitems">Own Items</string>
+    <string name="nav_send">Send</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_communicate">Communicate</string>
+
+    <string name="helpOwnItem">enter your own item</string>
+    <string name="btnAddItem">Add</string>
+
+    <string name="about_name">About Random application</string>
+    <string name="desc1">This application gives to user opportunities generate random values with help next function, such as:</string>
+    <string name="desc_random_number">Random Numbers - generating random number between two given values entered by user.</string>
+    <string name="desc_yes_no">YES or NO - generating random answer, yes or no.</string>
+    <string name="desc_rps">Rock Paper Scissors - generating random one of three variants, such as: Rock, Paper or Scissors.</string>
+    <string name="desc_flip_coin">Flip a coin - generating random flipping a coin.</string>
+    <string name="desc_dice">Dice - user has possibility generate random value of dice. Also, user can choose one, two, three or four dices.</string>
+    <string name="desc_own_items">Own items - first, user enters his own values and next application chooses one random value.</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

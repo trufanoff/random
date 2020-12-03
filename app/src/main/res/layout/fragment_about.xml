@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/federo"
+                android:gravity="fill_horizontal"
+                android:text="@string/desc1"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+                android:text="@string/desc_random_number"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+                android:text="@string/desc_dice"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+                android:text="@string/desc_yes_no"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+                android:text="@string/desc_flip_coin"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+                android:text="@string/desc_rps"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/federo"
+                android:layout_marginBottom="20sp"
+                android:gravity="fill"
+
+                android:text="@string/desc_own_items"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

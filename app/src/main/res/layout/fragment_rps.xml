@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RpsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivRPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="51dp"
+            android:src="@drawable/question_mark" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="232dp"
+            android:fontFamily="@font/federo"
+            android:gravity="center"
+            android:text="@string/tvResult1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnRandom"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/federo"
+            android:gravity="center"
+            android:text="@string/btnRandomize"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvShake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="78dp"
+            android:text="@string/tvShake" />
+
+    </RelativeLayout>
+</FrameLayout>

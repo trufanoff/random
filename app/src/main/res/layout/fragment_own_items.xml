@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnItemsFragment">
+
+    <EditText
+        android:id="@+id/etOwnItem"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/helpOwnItem"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="@string/btnAddItem" />
+
+    <ListView
+        android:id="@+id/lvOwnItems"
+        android:layout_width="337dp"
+        android:layout_height="360dp"
+        android:layout_alignStart="@+id/etOwnItem"
+        android:layout_below="@+id/btnAddItem"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/etOwnItem" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/federo"
+        android:gravity="center"
+        android:text="@string/btnRandomize"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvShake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="166dp"
+        android:layout_marginRight="166dp"
+        android:layout_marginBottom="78dp"
+        android:text="@string/tvShake" />
+
+
+</RelativeLayout>
